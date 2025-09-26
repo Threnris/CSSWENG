@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "14252b96-4ad3-4d78-870e-6fa0264db79a",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Client",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "1271b85e-edc6-4d0f-b75f-861e707957ea",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Auth Provider",
@@ -278,6 +278,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -361,7 +362,6 @@
               ]
             },
             "id": "f46ecef5-2520-494c-ab30-bf3761d1a28a",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -398,6 +398,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -481,7 +482,6 @@
               ]
             },
             "id": "ca7ecf88-0971-4b32-a584-8d00ed41a669",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "LDAP",
@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -601,7 +602,6 @@
               ]
             },
             "id": "3e493549-40f3-41f4-a3d7-f895a4e46636",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "SQL DATABASE",
@@ -1227,8 +1227,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "c75e6289-94d9-4b68-8850-bfac3af2dd6b",
             "zIndex": 11,
+            "id": "c75e6289-94d9-4b68-8850-bfac3af2dd6b",
             "data": {
               "type": "tm.Text",
               "name": "Elevation of privilege",
@@ -1251,8 +1251,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "117589ce-9271-46fb-89c9-dc8409ab8616",
             "zIndex": 12,
+            "id": "117589ce-9271-46fb-89c9-dc8409ab8616",
             "data": {
               "type": "tm.Text",
               "name": "Spoofing",
@@ -1275,13 +1275,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 13,
             "id": "e7000cff-bd09-46b8-b154-5545872cc540",
             "data": {
               "type": "tm.Text",
               "name": "Spoofing",
               "hasOpenThreats": false
-            },
-            "zIndex": 13
+            }
           },
           {
             "position": {
@@ -1299,13 +1299,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 14,
             "id": "023fef61-d442-4d08-af15-1141b79f9cb9",
             "data": {
               "type": "tm.Text",
               "name": "Spoofing",
               "hasOpenThreats": false
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -1323,13 +1323,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 15,
             "id": "bf89144f-5b96-405b-8481-4eba85a2fb41",
             "data": {
               "type": "tm.Text",
               "name": "Tampering with the data using the SQL Injection attack",
               "hasOpenThreats": false
-            },
-            "zIndex": 15
+            }
           }
         ],
         "description": "Data Flow Diagram"
